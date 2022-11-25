@@ -5,7 +5,7 @@
 ### 11/25/2022 Gas optimizations
 Some solidity gas optimization techniques/notes 
 - Packing variables in storage into 256 bit sizes. 
-- SSTORE and SSLOAD are expensive OPCODEs. 
+- SSTORE and SSLOAD are expensive OPCODEs so its more cost effective to save local variables. 
 - "Constant variables are replaced at compile time by their values, while immutable variables are replaced at deployment time... constant variables cannot make reference to the state of the blockchain nor call external contracts" (ie. block.number, address(this).balance, msg.value, gasleft()). 
 - Maps are usually more gas efficient because they're essentially 
 ```
