@@ -3,7 +3,11 @@
 [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ### 11/25/2022 Gas optimizations
-Solidity gas optimization techniques. Packing variables in storage. SSTORE and SSLOAD are expensive OPCODEs. "Constant variables are replaced at compile time by their values, while immutable variables are replaced at deployment time... constant variables cannot make reference to the state of the blockchain nor call external contracts" (ie. block.number, address(this).balance, msg.value, gasleft()). Maps are usually more gas efficient because they're essentially 
+Some solidity gas optimization techniques/notes 
+- Packing variables in storage into 256 bit sizes. 
+- SSTORE and SSLOAD are expensive OPCODEs. 
+- "Constant variables are replaced at compile time by their values, while immutable variables are replaced at deployment time... constant variables cannot make reference to the state of the blockchain nor call external contracts" (ie. block.number, address(this).balance, msg.value, gasleft()). 
+- Maps are usually more gas efficient because they're essentially 
 ```
 struct Array{
   mapping(uint => someType) items;
