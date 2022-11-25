@@ -2,7 +2,7 @@
 ## A place to jot down what I learned for the day
 [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
-### 11/25/2022 Gas optimizations
+### 11/25/2022 Gas optimizations, Flash Loans
 Some solidity gas optimization techniques/notes:
 - Packing variables in storage into 256 bit sizes. 
 - SSTORE and SSLOAD are expensive OPCODEs so its more cost effective to save local variables. 
