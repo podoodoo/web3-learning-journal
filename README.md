@@ -16,6 +16,7 @@ struct Array{
 ```
 Learned how to use Aave to create flash loan contracts and test with a forked polygon mainnet in hardhat.
 
+---
 
 ### 11/24/2022 Ethereum Storage and Execution 
 World state is a map of addresses and account states. Contract accounts are comprised of balance, nonce, storage hash, and code hash. And Externally Owned Accounts (EOA) (ie. MetaMask or Coinbase wallets) just have balance and nonce. 
@@ -23,6 +24,7 @@ There are two types of transactions: contract creation and sending messages. Sen
 EVM stack sizes are 32 bytes (256 bits) x 1024 and can only store 16 local variables. 
 Memory can only be read in 32 byte chunks. Similar to WORDs in CPUs.  
 
+---
 
 ### 11/23/2022 Finished Junior course in LearnWeb3DAO
 Using [The Graph](https://thegraph.com/hosted-service/subgraph/podoodoo/learnweb3) to track events on [RandomWinnerGame](https://mumbai.polygonscan.com/address/0x2968D09a5c4e89E6fCC8f2Dc7d67659C32467ec2) contract. The contract utilizes Chainlink VRF to randomly pick a winner from a pool of entrants. 
