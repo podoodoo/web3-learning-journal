@@ -1,6 +1,8 @@
 # Web Learning Journal
 ## A place to jot down what I learned for the day
+---
 [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+---
 
 ### 11/25/2022 Gas optimizations, Flash Loans
 Some solidity gas optimization techniques/notes:
