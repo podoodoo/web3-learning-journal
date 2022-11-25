@@ -1,7 +1,7 @@
 # Web Learning Journal
 ## A place to jot down what I learned for the day
 
----
+
 
 [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
