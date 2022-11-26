@@ -36,8 +36,11 @@ Learned how to use Aave to create flash loan contracts and test with a forked po
 
 ### 11/24/2022 Ethereum Storage and Execution 
 World state is a map of addresses and account states. Contract accounts are comprised of balance, nonce, storage hash, and code hash. And Externally Owned Accounts (EOA) (ie. MetaMask or Coinbase wallets) just have balance and nonce. 
+
 There are two types of transactions: contract creation and sending messages. Sending messages are for ETH transfers and/or function calls.
+
 EVM stack sizes are 32 bytes (256 bits) x 1024 and can only store 16 local variables. 
+
 Memory can only be read in 32 byte chunks. Similar to WORDs in CPUs.  
 
 ---
