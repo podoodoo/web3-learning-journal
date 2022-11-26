@@ -7,6 +7,10 @@
 
 ---
 
+### 11/26/2022 delegatecall() and reentrancy vulnerabilities
+Created a demo of vulnerabilities in smart contracts. [Link](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/reentrancy) [Link](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/delegatecall)
+Using ethers.provider.getStorageAt() it's easy to read stack memory in blocks
+
 
 ### 11/25/2022 Gas optimizations, Flash Loans
 Some solidity gas optimization techniques/notes:
