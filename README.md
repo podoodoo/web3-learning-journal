@@ -10,13 +10,23 @@
 
 
 
+### Proxy Pattern and Meta Transactions
 
-### 11/26/2022 delegatecall() and reentrancy vulnerabilities
+Contracts are upgradable through proxy design patterns. 
+
+Gas-less transactions are achieveable through meta transactions. e.g. In OpenSea, a seller is able to put up an NFT for sale and the buyer pays for the NFT and the transaction costs. 
+
+Elliptic Curve Digital Signature Algorithm (ECDSA) is the signatures algorithm used by Ethereum and OpenZeppelin.
+
+
+
+---
+
+
+### 11/26/2022 delegatecall() and Reentrancy Vulnerabilities
 Created a demo of vulnerabilities in smart contracts. [Link](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/reentrancy) [Link](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/delegatecall)
 
 Using ethers.provider.getStorageAt(), it's possible to read stack memory in blocks. Even private memory.
-
-Contracts are upgradable through proxy design patterns. 
 
 msg.sender is generally more superior to tx.origin. 
 
