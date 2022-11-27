@@ -1,4 +1,4 @@
-# Web Learning Journal
+# Web3 Learning Journal
 ## A place to jot down what I learned for the day
 
 
