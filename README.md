@@ -16,6 +16,10 @@ Created a demo of vulnerabilities in smart contracts. [Link](https://github.com/
 
 Using ethers.provider.getStorageAt(), it's possible to read stack memory in blocks. Even private memory.
 
+Contracts are upgradable through proxy design patterns. 
+
+msg.sender is generally more superior to tx.origin. 
+
 ---
 
 ### 11/25/2022 Gas optimizations, Flash Loans
