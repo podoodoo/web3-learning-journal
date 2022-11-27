@@ -20,6 +20,8 @@ Contracts are upgradable through proxy design patterns.
 
 msg.sender is generally more superior to tx.origin. 
 
+Function modifiers use the same stack as the function on which they are put and counts as 1 of the 16 variables.
+
 ---
 
 ### 11/25/2022 Gas optimizations, Flash Loans
