@@ -18,6 +18,12 @@ Gas-less transactions are achieveable through meta transactions. e.g. In OpenSea
 
 Elliptic Curve Digital Signature Algorithm (ECDSA) is the signatures algorithm used by Ethereum and OpenZeppelin.
 
+Ways to trigger the Fallback function:
+
+1. Calling a function that doesn’t exist inside the contract, or
+2. Calling a function without passing in required data, or
+3. Sending Ether without any data to the contract
+
 
 
 ---
