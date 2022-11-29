@@ -10,8 +10,10 @@
 
 ### 11/29/2022 Layer 2s
 
-* State Channels
+* State/Payment Channels
+  Two or more users lock up funds in a contract and transact amongst each other in a trusted small circle. Only the end state is saved onto the chain.
 * Side Chains
+  
 * Rollups
 * Optimistic Rollups (ORs)
 * Zero-Knowledge Rollups (ZKRs)
