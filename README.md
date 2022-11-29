@@ -11,16 +11,30 @@
 ### 11/29/2022 Layer 2s
 
 * State/Payment Channels
+
   Two or more users lock up funds in a contract and transact amongst each other in a trusted small circle. Only the end state is saved onto the chain.
+  
 * Side Chains
+
+  Not technically a Layer 2. Runs parallel with Layer 1 but has own governance consensus with validators.
   
 * Rollups
+
+  Bundle up transactions and send as a batch.
+
 * Optimistic Rollups (ORs)
+
+  Batch transactions are valid by default. Transaction proposer (asserters) stake ETH and provide bond. Users can challenge authenticity. Verifiers check disputes and whoever is right gets rewarded.
+
 * Zero-Knowledge Rollups (ZKRs)
-* ZKR vs OR
+
+  Batch transactions are bundled with a proof for authenticity. Can be expensive.  
+
 * Plasma
 * Validiums
 * Volitions
+
+Unspent transaction output (UTXO) is the technical term for the amount of digital currency that remains after a cryptocurrency transaction.
 
 ---
 
