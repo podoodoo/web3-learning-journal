@@ -11,7 +11,9 @@
 
 ### 11/28/2022 More Gas Optimizations
 
-[1](https://mudit.blog/solidity-gas-optimization-tips/)[2](https://mudit.blog/solidity-tips-and-tricks-to-save-gas-and-reduce-bytecode-size/)
+[1](https://mudit.blog/solidity-gas-optimization-tips/)
+
+[2](https://mudit.blog/solidity-tips-and-tricks-to-save-gas-and-reduce-bytecode-size/)
 
 ---
 
