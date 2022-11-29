@@ -8,6 +8,19 @@
 ---
 
 
+### 11/29/2022 Layer 2s
+
+* State Channels
+* Side Chains
+* Rollups
+* Optimistic Rollups (ORs)
+* Zero-Knowledge Rollups (ZKRs)
+* ZKR vs OR
+* Plasma
+* Validiums
+* Volitions
+
+---
 
 ### 11/28/2022 More Gas Optimizations
 
