@@ -8,6 +8,27 @@
 ---
 
 
+### 12/1/2022 Layer 2s cont.
+
+* Volitions
+
+---
+
+### 11/30/2022 Layer 2s cont.
+
+* Plasma
+  
+  "A Plasma chain is a separate blockchain anchored to Ethereum Mainnet but executing transactions off-chain with its own mechanism for block validation. Plasma chains are sometimes referred to as "child" chains, essentially smaller copies of the Ethereum Mainnet. Plasma chains use fraud proofs (like optimistic rollups) to arbitrate disputes. Merkle trees enable the creation of an endless stack of these chains that can work to offload bandwidth from parent chains." [Ethereum.org](https://ethereum.org/en/developers/docs/scaling/plasma/)
+
+* Validiums
+
+  Enforces integrity of transactions using validity proofs. Executes transactions off-chain.
+
+
+
+
+---
+
 ### 11/29/2022 Layer 2s
 
 * State/Payment Channels
@@ -29,10 +50,6 @@
 * Zero-Knowledge Rollups (ZKRs)
 
   Batch transactions are bundled with a proof for authenticity. Can be expensive.  
-
-* Plasma
-* Validiums
-* Volitions
 
 Unspent transaction output (UTXO) is the technical term for the amount of digital currency that remains after a cryptocurrency transaction.
 
