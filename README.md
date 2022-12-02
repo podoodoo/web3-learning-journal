@@ -10,7 +10,11 @@
 
 ### 12/1/2022 Layer 2s cont.
 
+![Data in L2s](https://i.imgur.com/TWmjV4H.png)
+
 * Volitions
+
+  Rollup and Validium hybrid. 
 
 ---
 
