@@ -7,6 +7,11 @@
 
 ---
 
+### 12/5/2022 Public Key Cryptography
+
+The ECDSA (Elliptic Curve Digital Signature Algorithm) secp256k1 is used by both Ethereum and Bitcoin.
+
+---
 
 ### 12/1/2022 Layer 2s cont.
 
