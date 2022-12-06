@@ -7,6 +7,13 @@
 
 ---
 
+
+### 12/6/2022 Diffie-Hellman Exchange Key
+
+[Video explanation.](https://www.youtube.com/watch?v=NmM9HA2MQGI) Used often in TLS handshake in HTTPS.
+
+---
+
 ### 12/5/2022 Public Key Cryptography
 
 The ECDSA (Elliptic Curve Digital Signature Algorithm) secp256k1 is used by both Ethereum and Bitcoin. Wallet addresses are generated from the public key derived from secp256k1. For Bitcoin, it involves a [checksum and base58 check](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses) and for Ethereum, it is the last 20 bytes of the hash. Base58 is to avoid confusing characters like 0 and O.
