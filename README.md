@@ -9,7 +9,7 @@
 
 ### 12/9/2022 Hashcash
 
-Hashcash implements SHA-1 to reduce spam emails. Idea is to create a proof of work for an email so sending many emails would be CPU intensive. Hashcash was the inspiration for Satoshi Nakamoto's Bitcoin. 
+Hashcash implements SHA-1 to reduce spam emails. Mozilla and Microsoft once utilized this method. The idea was to create a proof of work for an email so sending many emails would be CPU intensive. Hashcash was the inspiration for Satoshi Nakamoto's Bitcoin. 
 
 ---
 
