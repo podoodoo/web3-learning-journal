@@ -9,7 +9,7 @@
 
 ### 12/12/2022
 
-Bitcoin uses UTXO model to keep track of user and state/balances and Ethereum uses the Account model.
+Bitcoin uses UTXO model to keep track of user and state/balances and Ethereum uses the Account model. UTXO in Bitcoin is like fake credits that allows you to do transactions but you don't really own it.
 
 ---
 
