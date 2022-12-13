@@ -7,6 +7,12 @@
 
 ---
 
+### 12/12/2022
+
+Bitcoin uses UTXO model to keep track of user and state/balances and Ethereum uses the Account model.
+
+---
+
 ### 12/9/2022 Hashcash
 
 Hashcash implements SHA-1 to reduce spam emails. Mozilla and Microsoft once utilized this method. The idea was to create a proof of work for an email so sending many emails would be CPU intensive. Hashcash was the inspiration for Satoshi Nakamoto's Bitcoin. 
