@@ -7,7 +7,13 @@
 
 ---
 
-### 12/12/2022
+### 12/14/2022 Solidity Array
+
+Arrays always start at a new slot of storage
+
+---
+
+### 12/12/2022 UTXO
 
 Bitcoin uses UTXO model to keep track of user and state/balances and Ethereum uses the Account model. UTXO in Bitcoin is like fake credits that allows you to do transactions but you don't really own it like Groupon or Amazon credits. UTXO is stateless.
 
