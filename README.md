@@ -5,6 +5,13 @@
 
 [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
+
+---
+
+### 12/16/2022 Upgradeable Tokens
+
+When using upgradeable tokens, you can't use constructors and have to use the initialize() method.
+
 ---
 
 ### 12/14/2022 Solidity Array
