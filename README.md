@@ -10,7 +10,7 @@
 
 ### 12/19/2022 Hardhat Unit Testing Mappings
 
-You can destructure mappings to get the value of mappings in Solidity. [link](https://ethereum.stackexchange.com/a/126930/106502)
+You can destructure structs to get the value of mappings in Solidity. [Link](https://ethereum.stackexchange.com/a/126930/106502)
 
 ---
 
@@ -129,7 +129,7 @@ Ways to trigger the Fallback function:
 
 
 ### 11/26/2022 delegatecall() and Reentrancy Vulnerabilities
-Created a demo of vulnerabilities in smart contracts. [Link](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/reentrancy) [Link](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/delegatecall)
+Created a demo of vulnerabilities in smart contracts. [Link1](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/reentrancy) [Link2](https://github.com/podoodoo/LW3DAO/tree/master/04-Senior/delegatecall)
 
 Using ethers.provider.getStorageAt(), it's possible to read stack memory in blocks. Even private memory.
 
