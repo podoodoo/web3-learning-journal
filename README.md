@@ -8,6 +8,12 @@
 
 ---
 
+### 12/19/2022 Hardhat Unit Testing Mappings
+
+You can destructure mappings to get the value of mappings in Solidity. [link](https://ethereum.stackexchange.com/a/126930/106502)
+
+---
+
 ### 12/16/2022 Upgradeable Tokens
 
 When using upgradeable tokens, you can't use constructors and have to use the initialize() method.
