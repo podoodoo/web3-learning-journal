@@ -5,12 +5,17 @@
 
 [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
+---
+
+### 12/21/2022 Getting mapping Values in Struct in Hardhat
+
+You have to create a getter for getting values from mapping in a Struct. Hardhat doesn't recognize mappings in Structs.
 
 ---
 
-### 12/19/2022 Hardhat Unit Testing Mappings
+### 12/19/2022 Getting Struct Values
 
-You can destructure structs to get the value of mappings in Solidity. [Link](https://ethereum.stackexchange.com/a/126930/106502)
+You can destructure structs to get the values in Solidity. [Link](https://ethereum.stackexchange.com/a/126930/106502)
 
 ---
 
