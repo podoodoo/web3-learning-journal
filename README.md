@@ -7,6 +7,12 @@
 
 ---
 
+### 12/24/2022 Bitcoin Nodes 
+
+Stores merkle root hashes in [LevelDB](https://dbdb.io/db/leveldb)
+
+---
+
 ### 12/21/2022 Getting mapping Values in Struct in Hardhat
 
 You have to create a getter for getting values from mapping in a Struct. Hardhat doesn't recognize mappings in Structs.
