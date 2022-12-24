@@ -7,9 +7,10 @@
 
 ---
 
-### 12/24/2022 Bitcoin Nodes 
+### 12/24/2022 Merkles 
 
-Stores merkle root hashes in [LevelDB](https://dbdb.io/db/leveldb)
+Bitcoin nodes store merkle root hashes in [LevelDB](https://dbdb.io/db/leveldb).
+Ethereum uses Patricia Merkle Trees which is a combination of Merkle + Radix trees.
 
 ---
 
