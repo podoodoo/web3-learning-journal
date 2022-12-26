@@ -7,6 +7,14 @@
 
 ---
 
+### 12/26/2022 Ethereum Tries
+
+There are three tries hashes in Ethereum blocks: Receipt, State, and Transaction.
+
+![Ethereum Tries](https://res.cloudinary.com/divzjiip8/image/upload/v1669869958/guides/Screen_Shot_2022-11-30_at_8.45.47_PM.png)
+
+---
+
 ### 12/24/2022 Merkles 
 
 Bitcoin nodes store merkle root hashes in [LevelDB](https://dbdb.io/db/leveldb).
