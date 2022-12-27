@@ -9,7 +9,8 @@
 
 ### 12/26/2022 Ethereum Tries
 
-There are three tries hashes in Ethereum blocks: Receipt, State, and Transaction.
+Trie is pronounced "try."
+There are three tries hashes in Ethereum blocks: Receipt, State, and Transaction. There is also the storage trie.
 
 ![Ethereum Tries](https://res.cloudinary.com/divzjiip8/image/upload/v1669869958/guides/Screen_Shot_2022-11-30_at_8.45.47_PM.png)
 
