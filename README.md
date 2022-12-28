@@ -11,7 +11,7 @@
 
 The peer discovery algorithm is based on the kademlia protocol.
 
-[Stack Exchange link](https://ethereum.stackexchange.com/questions/7743/what-are-the-peer-discovery-mechanisms-involved-in-ethereum)
+[Stack Exchange link](https://ethereum.stackexchange.com/questions/7743/what-are-the-peer-discovery-mechanisms-involved-in-ethereum) with more details.
 
 ---
 
