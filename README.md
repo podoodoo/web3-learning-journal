@@ -7,6 +7,14 @@
 
 ---
 
+### 12/28/2022 Node P2P Discovery 
+
+The peer discovery algorithm is based on the kademlia protocol.
+
+[Stack Exchange link](https://ethereum.stackexchange.com/questions/7743/what-are-the-peer-discovery-mechanisms-involved-in-ethereum)
+
+---
+
 ### 12/26/2022 Ethereum Tries
 
 Trie is pronounced "try."
