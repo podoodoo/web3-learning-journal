@@ -9,7 +9,7 @@
 
 ### 12/30/2022 Turing Complete
 
-JUMP and JUMPI op codes are what makes Solidity turing complete.
+JUMP and JUMPI op codes are what makes the EVM Turing Complete. Allows for loops.
 
 ---
 
