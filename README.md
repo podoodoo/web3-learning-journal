@@ -7,6 +7,12 @@
 
 ---
 
+### 12/30/2022 Turing Complete
+
+JUMP and JUMPI op codes are what makes Solidity turing complete.
+
+---
+
 ### 12/28/2022 Node P2P Discovery 
 
 The peer discovery algorithm is based on the kademlia protocol.
