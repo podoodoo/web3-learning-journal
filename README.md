@@ -7,6 +7,16 @@
 
 ---
 
+### 12/31/2022 selfdestruct()
+
+Correct use: selfdestruct(payable(address)) 
+
+The payable is there because some methods could protect against accidentally sending ether.
+
+[My "Winner" event](https://goerli.etherscan.io/tx/0x3669eb346e8c2258a255ad46d6eca9cbf7709d13d55ae11411d9587cfbf4da48) from Alchemy University Week 4.
+
+---
+
 ### 12/30/2022 Turing Complete
 
 JUMP and JUMPI op codes are what makes the EVM Turing Complete. Allows for loops.
