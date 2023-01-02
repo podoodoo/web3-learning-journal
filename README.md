@@ -7,6 +7,14 @@
 
 ---
 
+### 1/2/2023 Events and Logs
+
+Events and logs are stored on the blockchain in transaction receipts but they are not required for blockchain concensus.
+
+They are however verified by the blockchain since transaction receipt hashes are stored inside blocks.
+
+---
+
 ### 12/31/2022 selfdestruct()
 
 Correct use: selfdestruct(payable(address)) 
