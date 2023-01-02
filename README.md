@@ -7,6 +7,16 @@
 
 ---
 
+### 1/3/2022 Reference Types
+
+Use `storage` for persistence on the blockchain, `memory` for temporary storage per transaction, and `calldata` for arguments (also temporary).
+
+`memory` arrays do not have a push or pop methods. 
+
+Structs in the ABI are defined as tuples. Tuples are in three parts: uint8 (for <255), uint256, bool. 
+
+---
+
 ### 1/2/2023 Events and Logs
 
 Events and logs are stored on the blockchain in transaction receipts but they are not required for blockchain concensus.
