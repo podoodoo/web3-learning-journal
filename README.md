@@ -25,7 +25,7 @@ Events and logs are stored on the blockchain in transaction receipts but they ar
 
 ### 12/31/2022 selfdestruct()
 
-Correct use: selfdestruct(payable(address)) 
+Correct use: `selfdestruct(payable(address))`
 
 The payable is there because some methods could protect against accidentally sending ether.
 
