@@ -13,7 +13,7 @@ Use `storage` for persistence on the blockchain, `memory` for temporary storage 
 
 `memory` arrays do not have a push or pop methods. 
 
-Structs in the ABI are defined as tuples. Tuples are in three parts: uint8 (for <255), uint256, bool. 
+Structs in the ABI are defined as tuples.  
 
 ---
 
