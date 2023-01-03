@@ -19,9 +19,7 @@ Structs in the ABI are defined as tuples.
 
 ### 1/2/2023 Events and Logs
 
-Events and logs are stored on the blockchain in transaction receipts but they are not required for blockchain concensus.
-
-They are however verified by the blockchain since transaction receipt hashes are stored inside blocks.
+Events and logs are stored on the blockchain in transaction receipts but they are not required for blockchain concensus. They are however verified by the blockchain since transaction receipt hashes are stored inside blocks.
 
 ---
 
@@ -43,7 +41,7 @@ JUMP and JUMPI op codes are what makes the EVM Turing Complete. Allows for loops
 
 ### 12/28/2022 Node P2P Discovery 
 
-The peer discovery algorithm is based on the kademlia protocol.
+Node peer discovery algorithm is based on the kademlia protocol.
 
 [Stack Exchange link](https://ethereum.stackexchange.com/questions/7743/what-are-the-peer-discovery-mechanisms-involved-in-ethereum) with more details.
 
