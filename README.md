@@ -11,7 +11,7 @@
 
 Use `storage` for persistence on the blockchain, `memory` for temporary storage per transaction, and `calldata` for arguments (also temporary).
 
-`memory` arrays do not have a push or pop methods. 
+`memory` arrays do not have push or pop methods. 
 
 Structs in the ABI are defined as tuples.  
 
