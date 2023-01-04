@@ -13,7 +13,9 @@ Fal1out - The "constructor" was actually just a function you could call to trans
 
 Fallback - `recieve()` function transferred ownership if `msg.value > 0 && contributions[msg.sender] > 0` and you could satisfy `contributions[msg.sender] > 0` with `contribute()`
 
-CoinFlip - block numbers are not randomized in `uint256 blockValue = uint256(blockhash(block.number - 1));`. Call `flip()` from another contract.
+CoinFlip - Block numbers are not randomized in `uint256 blockValue = uint256(blockhash(block.number - 1));`. Call `flip()` from another contract.
+
+Telephone - Satisfy `tx.origin != msg.sender` by calling transaction from another contract.
 
 ---
 
