@@ -7,6 +7,14 @@
 
 ---
 
+### 1/4/2022 Ethernauts 
+
+Fal1out - The "constructor" was actually just a function you could call to transfer ownership of the sender
+
+Fallback - `recieve()` function transferred ownership if `msg.value > 0 && contributions[msg.sender] > 0` and you could satisfy `contributions[msg.sender] > 0` with `contribute()`
+
+---
+
 ### 1/3/2022 Reference Types
 
 Use `storage` for persistence on the blockchain, `memory` for temporary storage per transaction, and `calldata` for arguments (also temporary).
