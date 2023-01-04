@@ -7,7 +7,7 @@
 
 ---
 
-### 1/4/2022 Ethernauts #1
+### 1/4/2022 Ethernaut #1
 
 Fal1out - The "constructor" was actually just a function you could call to transfer ownership of the sender
 
