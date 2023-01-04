@@ -17,6 +17,8 @@ CoinFlip - Block numbers are not randomized in `uint256 blockValue = uint256(blo
 
 Telephone - Satisfy `tx.origin != msg.sender` by calling transaction from another contract.
 
+Token - Setting `_value` to a number greater than the initial 20 causes an underflow in `balances[msg.sender] - _value >= 0`. Solidity version >0.8 forces this to revert. 
+
 ---
 
 ### 1/3/2022 Reference Types
