@@ -21,6 +21,8 @@ Token - Setting `_value` to a number greater than the initial 20 causes an under
 
 Delegation - call `pwn()` with `delegatecall()`. In console call `contract.sendTransaction({ data:"dd365b8b" })`. `d365b8b` is from the first 4 bytes of `pwn()` in keccak256.
 
+Force - transfer funds of another contract through `selfdestruct(address)`
+
 ---
 
 ### 1/3/2022 Reference Types
