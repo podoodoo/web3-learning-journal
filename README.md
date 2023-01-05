@@ -23,6 +23,8 @@ Delegation - call `pwn()` with `delegatecall()`. In console call `contract.sendT
 
 Force - transfer funds of another contract through `selfdestruct(address)`
 
+Vault - Read contract storage index 1 through `eth.getStorageAt()`. Used Alchemy Composer.
+
 ---
 
 ### 1/3/2022 Reference Types
