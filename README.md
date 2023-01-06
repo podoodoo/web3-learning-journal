@@ -9,7 +9,7 @@
 
 ### 1/6/2022 Ethernaut #3
 
-Reentrance - [Contract](https://goerli.etherscan.io/address/0xeAb3e298d11501f2c625AFa4AD9b65f4753d9457). Reentrancy attack calling withdraw again in `receive()`. 
+Reentrance - [Bad actor contract](https://goerli.etherscan.io/address/0xeAb3e298d11501f2c625AFa4AD9b65f4753d9457). Reentrancy attack calling withdraw again in `receive()`. 
 
 ---
 
