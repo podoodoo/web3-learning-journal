@@ -11,6 +11,8 @@
 
 Reentrance - [Bad actor contract](https://goerli.etherscan.io/address/0xeAb3e298d11501f2c625AFa4AD9b65f4753d9457). Reentrancy attack calling withdraw again in `receive()`. 
 
+Elevator - Make a contract "overriding" the method `isLastFloor()` and have it return a toggling boolean. 
+
 ---
 
 ### 1/5/2022 Ethernaut #2
