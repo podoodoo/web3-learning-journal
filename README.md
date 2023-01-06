@@ -7,6 +7,12 @@
 
 ---
 
+### 1/6/2022 Ethernaut #3
+
+Reentrance - [Contract](https://goerli.etherscan.io/address/0xeAb3e298d11501f2c625AFa4AD9b65f4753d9457). Reentrancy attack calling withdraw again in `receive()`. 
+
+---
+
 ### 1/5/2022 Ethernaut #2
 
 King - Create separate denial of service contract that sends sufficient eth to King contract without fallback/receive. Initially, I had `payable(contract).call{ value: eth }("")` and was getting `Warning: Return value of low-level calls not used.` I didn't think I needed to use the return values, but I actually did and was the cause for the transaction getting an out of gas error.
