@@ -13,6 +13,8 @@ Reentrance - [Bad actor contract](https://goerli.etherscan.io/address/0xeAb3e298
 
 Elevator - Make a contract "overriding" the method `isLastFloor()` and have it return a toggling boolean. 
 
+Privacy - Similar to Vault with a few extra quick maffs. Read storage slot 5.
+
 ---
 
 ### 1/5/2022 Ethernaut #2
@@ -37,7 +39,7 @@ Delegation - call `pwn()` with `delegatecall()`. In console call `contract.sendT
 
 Force - transfer funds of another contract through `selfdestruct(address)`
 
-Vault - Read contract storage index 1 through `eth.getStorageAt()`. Used Alchemy Composer.
+Vault - Read contract storage slot 1 through `eth.getStorageAt()`. Used Alchemy Composer.
 
 ---
 
