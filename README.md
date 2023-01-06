@@ -7,6 +7,12 @@
 
 ---
 
+### 1/5/2022 Ethernaut #2
+
+King - Create separate denial of service contract that sends sufficient eth to King contract without fallback/receive. Initially, I had `payable(contract).call{ value: eth }("")` and was getting `Warning: Return value of low-level calls not used.` I didn't think I needed to use the return values, but I actually did and was the cause for the transaction getting an out of gas error.
+
+---
+
 ### 1/4/2022 Ethernaut #1
 
 Fal1out - The "constructor" was actually just a function you could call to transfer ownership of the sender
