@@ -16,7 +16,7 @@ assembly { x := extcodesize(caller()) }
     require(x == 0);
 ```
 
-the assembly code is looking for the ["size of the code at address `caller()`"](https://docs.soliditylang.org/en/v0.4.23/assembly.html). `caller()` is the contract address of GateKeeperTwoSolution.sol. When contract is being created, code size (`extcodesize`) is 0.
+the assembly code is looking for the ["size of the code at address `caller()`"](https://docs.soliditylang.org/en/v0.4.23/assembly.html). `caller()` is the contract address of GateKeeperTwoSolution.sol. When contract is being created, code size (`extcodesize`) is 0 so you just have to put everything inside the `constructor()`.
 
 In `gateThree()`, using the formula (A ^ B = C) == (A ^ C = B), it is simple to figure out the key.
 
