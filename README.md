@@ -30,6 +30,8 @@ constructor() {
 }
 ```
 
+Naught Coin - Just needed to use `approve()` and `transferFrom()` ERC20 methods.
+
 ---
 
 ### 1/6/2023 Ethernaut #3
