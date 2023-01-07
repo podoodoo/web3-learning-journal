@@ -7,7 +7,7 @@
 
 ---
 
-### Ethernaut #4
+### 1/7/2023 Ethernaut #4
 
 Gatekeeper Two - In `gateTwo()`,
 
@@ -32,7 +32,7 @@ constructor() {
 
 ---
 
-### 1/6/2022 Ethernaut #3
+### 1/6/2023 Ethernaut #3
 
 Reentrance - [Bad actor contract](https://goerli.etherscan.io/address/0xeAb3e298d11501f2c625AFa4AD9b65f4753d9457). Reentrancy attack calling withdraw again in `receive()`. 
 
@@ -55,13 +55,13 @@ function enter() public {
 
 ---
 
-### 1/5/2022 Ethernaut #2
+### 1/5/2023 Ethernaut #2
 
 King - Create separate denial of service contract that sends sufficient eth to King contract without fallback/receive. Initially, I had `payable(contract).call{ value: eth }("")` and was getting `Warning: Return value of low-level calls not used.` I didn't think I needed to use the return values, but I actually did and was the cause for the transaction getting an out of gas error.
 
 ---
 
-### 1/4/2022 Ethernaut #1
+### 1/4/2023 Ethernaut #1
 
 Fal1out - The "constructor" was actually just a function you could call to transfer ownership of the sender
 
@@ -81,7 +81,7 @@ Vault - Read contract storage slot 1 through `eth.getStorageAt()`. Used Alchemy 
 
 ---
 
-### 1/3/2022 Reference Types
+### 1/3/2023 Reference Types
 
 Use `storage` for persistence on the blockchain, `memory` for temporary storage per transaction, and `calldata` for arguments (also temporary).
 
