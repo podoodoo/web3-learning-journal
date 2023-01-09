@@ -7,6 +7,12 @@
 
 ---
 
+### 1/8/2023 Multisig
+
+Multisig is a transaction that needs to be signed off by multiple parties. Think of it like a giant wallet with a bit of governance. 
+
+---
+
 ### 1/7/2023 Ethernaut #4
 
 Gatekeeper Two - In `gateTwo()`,
