@@ -7,6 +7,12 @@
 
 ---
 
+### 1/9/2023 Alchemy University Week 7 ERC20
+
+[My transaction](https://goerli.etherscan.io/tx/0x2463b1355291725958a80e4516c2a3bb460ac7f2901b431d2733d43d0c0a65ec) to emit Winner.
+
+---
+
 ### 1/8/2023 Multisig
 
 Multisig is a transaction that needs to be signed off by multiple parties. Think of it like a giant wallet with a bit of governance. 
