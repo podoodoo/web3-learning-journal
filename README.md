@@ -44,7 +44,7 @@ constructor() {
 
 Naught Coin - Just needed to use `approve()` and `transferFrom()` ERC20 methods.
 
-Preservation - What I thought was Delegation all over again was riddle with bugs somehow. I don't know what happened. It worked in the end somehow. 
+Preservation - What I thought was Delegation all over again was riddle with bugs somehow. I don't know what happened. I still don't know exactly how it worked. 
 
 ```
 contract PreservationSolution {
