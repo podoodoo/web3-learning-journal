@@ -7,6 +7,27 @@
 
 ---
 
+### 1/14/2023 Storage slots
+
+`mapping` storage slots are calculated by `keccak(key type + base)`. 
+
+Example: 
+
+```
+contract SomeContract {
+    int256 a;
+    int256 b;
+    int256 c;
+    mapping(int256=>bool) public map;
+    ...
+    map[1] = 2;
+}
+``` 
+
+The storage slot would be calculated as `keccak(1 + 3)`. 
+
+---
+
 ### 1/9/2023 Alchemy University Week 7 ERC20
 
 [My transaction](https://goerli.etherscan.io/tx/0x2463b1355291725958a80e4516c2a3bb460ac7f2901b431d2733d43d0c0a65ec) to emit Winner.
