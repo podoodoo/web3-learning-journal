@@ -7,6 +7,12 @@
 
 ---
 
+### 1/16/2023 Checks Effects Interactions
+
+Use the Checks-Effects-Interactions pattern to prevent reentrancy vulnerabilities.
+
+---
+
 ### 1/14/2023 Storage slots
 
 `mapping` storage slots are calculated by `keccak(key type + base)`. 
