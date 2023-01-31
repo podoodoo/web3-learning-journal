@@ -7,6 +7,12 @@
 
 ---
 
+### 1/30/2023 Ethernaut #5
+
+Recovery - Obtain created contract address from ethernaut and invoke selfdestruct
+
+---
+
 ### 1/16/2023 Checks Effects Interactions
 
 Use the Checks-Effects-Interactions pattern to prevent reentrancy vulnerabilities.
