@@ -9,7 +9,7 @@
 
 ### 1/30/2023 Ethernaut #5
 
-Recovery - Obtain created contract address from ethernaut and invoke selfdestruct
+Recovery - Obtain created contract address from etherscan and invoke selfdestruct
 
 ---
 
