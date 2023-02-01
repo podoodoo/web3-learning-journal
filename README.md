@@ -9,7 +9,7 @@
 
 ### 1/31/2023 Ethernaut #6
 
-Alien Codex - when child contract has a variable in the same slot as a parent variable, the compiler tries to compact them into the same slot. Ex. A is B and contract A { bool a; } and B { bool b; }. Bytecode then compiles into 0x..aabb.
+Alien Codex - when child contract has a variable in the same slot as a parent variable, the compiler tries to compact them into the same slot. Ex. Contract B is A and slot 0s in contract A { bool a; } and contract B { bool b; }. Bytecode then compiles into 0x..aabb.
 
 ---
 
