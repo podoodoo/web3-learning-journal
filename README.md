@@ -7,6 +7,12 @@
 
 ---
 
+### 3/5/2023 Overflow
+
+The general best practice is "multiplication before division" to prevent issues involving loss of precision. Starting Solidity 0.8.0, an overflow happening outside of an "unchecked" block will always result in the transaction reverting.
+
+---
+
 ### 1/31/2023 Ethernaut #6
 
 Alien Codex - when child contract has a variable in the same slot as a parent variable, the compiler tries to compact them into the same slot. Ex. Contract B is A and slot 0s in contract A { bool a; } and contract B { bool b; }. Bytecode then compiles slot 0 into 0x..aabb because bool = 1 byte.
